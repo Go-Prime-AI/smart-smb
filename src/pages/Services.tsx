@@ -15,7 +15,7 @@ const services = [
             'Professional Installation & Management',
             'Tailored to Individual Needs',
         ],
-        image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?_gl=1*10bsxfc*_ga*MjA3MzY0MzgzNy4xNzcxNTQxNTMz*_ga_8JE65Q40S6*czE3NzE1NDE1MzIkbzEkZzEkdDE3NzE1NDE3ODMkajE1JGwwJGgw',
     },
     {
         id: 'access-control',
@@ -29,7 +29,7 @@ const services = [
             'CCTV System Integration',
             'Movement Monitoring & Audit Logs',
         ],
-        image: 'https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://images.pexels.com/photos/13657406/pexels-photo-13657406.jpeg?_gl=1*132eia8*_ga*MjA3MzY0MzgzNy4xNzcxNTQxNTMz*_ga_8JE65Q40S6*czE3NzE1NDE1MzIkbzEkZzEkdDE3NzE1NDE1NjIkajMwJGwwJGgw',
     },
     {
         id: 'door-entry',
@@ -43,7 +43,7 @@ const services = [
             'IP Telephony Compatibility',
             'Scalable for Any Building Size',
         ],
-        image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://images.pexels.com/photos/8978630/pexels-photo-8978630.jpeg?_gl=1*7av0r*_ga*MjA3MzY0MzgzNy4xNzcxNTQxNTMz*_ga_8JE65Q40S6*czE3NzE1NDE1MzIkbzEkZzEkdDE3NzE1NDE4OTkkajgkbDAkaDA.',
     },
     {
         id: 'cctv',
@@ -57,7 +57,7 @@ const services = [
             '24/7 Field-of-View Monitoring',
             'Government, Hotel & Bank Grade Deployments',
         ],
-        image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://images.pexels.com/photos/18693311/pexels-photo-18693311.jpeg',
     },
     {
         id: 'intruder-alarm',
@@ -71,7 +71,7 @@ const services = [
             'Scalable from Small to Large Projects',
             'Reliable, Knowledgeable Installation Team',
         ],
-        image: 'https://images.unsplash.com/photo-1570793294991-17f2e1a2ef91?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://static.vecteezy.com/system/resources/thumbnails/020/724/282/small/thief-with-balaclava-and-wire-cutter-was-spotted-trying-to-steal-in-a-apartment-from-the-security-alarm-system-scared-expression-photo.jpg',
     },
     {
         id: 'fire-alarm',
@@ -85,7 +85,7 @@ const services = [
             'Fire Authority Integration',
             'Maintenance & Inspection Services',
         ],
-        image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://images.pexels.com/photos/7425340/pexels-photo-7425340.jpeg',
     },
     {
         id: 'home-automation',
@@ -113,7 +113,7 @@ const services = [
             'ICT Security Integration',
             'High-Availability Infrastructure',
         ],
-        image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc48?auto=format&fit=crop&q=80&w=1200',
+        image: 'https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg',
     },
     {
         id: 'wireless',

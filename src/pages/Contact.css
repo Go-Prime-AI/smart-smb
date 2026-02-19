@@ -22,7 +22,9 @@
 .contact-hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.55) 50%, rgba(255, 255, 255, 0.35) 100%);
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0.8) 100%);
 }
 
 .contact-hero-content {
@@ -37,7 +39,6 @@
     margin-bottom: 1.5rem;
     color: var(--brand-primary);
     font-weight: 800;
-    text-shadow: 0 0 30px rgba(255, 255, 255, 1);
 }
 
 .contact-hero-content p {

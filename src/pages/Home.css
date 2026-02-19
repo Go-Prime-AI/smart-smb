@@ -19,7 +19,11 @@
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.55) 30%, rgba(255, 255, 255, 0.3) 100%);
+    /* Hero Horizontal Shift: Opaque behind text, clear over image */
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0.9) 30%,
+            rgba(255, 255, 255, 0.2) 100%);
 }
 
 .hero-content {
@@ -51,15 +55,18 @@
     line-height: 1.15;
     color: var(--brand-primary);
     margin-bottom: 1.25rem;
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.9), 0 0 10px rgba(255, 255, 255, 0.4);
+    position: relative;
+    z-index: 2;
 }
 
 .hero-text p {
     font-size: 1.1rem;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     line-height: 1.75;
     margin-bottom: 2rem;
     max-width: 560px;
+    font-weight: 500;
+    opacity: 0.9;
 }
 
 .hero-cta {
