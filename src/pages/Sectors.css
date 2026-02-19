@@ -1,0 +1,175 @@
+/* ── SECTORS PAGE ─────────────────────────────────────────── */
+
+/* Hero */
+.sectors-hero {
+    position: relative;
+    padding: 150px 0 90px;
+    overflow: hidden;
+}
+
+.sectors-hero-bg {
+    position: absolute;
+    inset: 0;
+    background: url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000') center/cover no-repeat;
+}
+
+.sectors-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.55) 40%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.sectors-hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 660px;
+}
+
+.sectors-hero-content h1 {
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-weight: 800;
+    color: var(--brand-primary);
+    margin: 0.75rem 0 1.25rem;
+    line-height: 1.25;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.9);
+}
+
+.sectors-hero-content p {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+/* Sectors Detail */
+.sectors-detail {
+    padding: 80px 0 60px;
+    background: #fff;
+}
+
+.sector-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    padding: 60px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.sector-row:last-child {
+    border-bottom: none;
+}
+
+.sector-row.reverse {
+    direction: rtl;
+}
+
+.sector-row.reverse>* {
+    direction: ltr;
+}
+
+.sector-row-image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.sector-row-image img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+
+.sector-icon-badge {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: var(--accent, #DC2626);
+    color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(220, 38, 38, 0.3);
+}
+
+.sector-row-content h2 {
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    font-weight: 800;
+    color: var(--text-primary, #0F172A);
+    margin-bottom: 1rem;
+}
+
+.sector-row-content p {
+    color: var(--text-secondary, #64748B);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 0.97rem;
+}
+
+.sector-features {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.sector-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.9rem;
+    color: var(--text-primary, #0F172A);
+    font-weight: 500;
+}
+
+.feat-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent, #DC2626);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Sectors CTA */
+.sectors-cta {
+    padding: 80px 0;
+    background: var(--bg-secondary, #F8F9FA);
+}
+
+.sectors-cta h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-primary, #0F172A);
+    margin-bottom: 1rem;
+}
+
+.sectors-cta p {
+    color: var(--text-secondary, #64748B);
+    max-width: 520px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+
+    .sector-row,
+    .sector-row.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+        gap: 2rem;
+    }
+
+    .sector-row-image img {
+        height: 280px;
+    }
+
+    .sector-features {
+        grid-template-columns: 1fr;
+    }
+}
