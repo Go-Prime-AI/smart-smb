@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Phone, MapPin } from 'lucide-react';
 import './Footer.css';
 
@@ -16,15 +17,15 @@ const Footer = () => {
                     <div className="footer-nav">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><a href="/services#physical-security">Physical Security</a></li>
-                            <li><a href="/services#access-control">Access Control</a></li>
-                            <li><a href="/services#door-entry">Door Entry System</a></li>
-                            <li><a href="/services#cctv">CCTV & Video Analytics</a></li>
-                            <li><a href="/services#intruder-alarm">Intruder Alarm</a></li>
-                            <li><a href="/services#fire-alarm">Fire Alarm System</a></li>
-                            <li><a href="/services#home-automation">Home Automation</a></li>
-                            <li><a href="/services#data-center">Data Center</a></li>
-                            <li><a href="/services#wireless">Wireless Telecom</a></li>
+                            <li><Link to="/services#physical-security">Physical Security</Link></li>
+                            <li><Link to="/services#access-control">Access Control</Link></li>
+                            <li><Link to="/services#door-entry">Door Entry System</Link></li>
+                            <li><Link to="/services#cctv">CCTV & Video Analytics</Link></li>
+                            <li><Link to="/services#intruder-alarm">Intruder Alarm</Link></li>
+                            <li><Link to="/services#fire-alarm">Fire Alarm System</Link></li>
+                            <li><Link to="/services#home-automation">Home Automation</Link></li>
+                            <li><Link to="/services#data-center">Data Center</Link></li>
+                            <li><Link to="/services#wireless">Wireless Telecom</Link></li>
                         </ul>
                     </div>
 
@@ -32,12 +33,12 @@ const Footer = () => {
                     <div className="footer-nav">
                         <h4>Key Sectors</h4>
                         <ul>
-                            <li><a href="/sectors">Governmental</a></li>
-                            <li><a href="/sectors">Educational</a></li>
-                            <li><a href="/sectors">Hospitality</a></li>
-                            <li><a href="/sectors">Retail</a></li>
-                            <li><a href="/sectors">City Surveillance</a></li>
-                            <li><a href="/sectors">Real Estate</a></li>
+                            <li><Link to="/sectors">Governmental</Link></li>
+                            <li><Link to="/sectors">Educational</Link></li>
+                            <li><Link to="/sectors">Hospitality</Link></li>
+                            <li><Link to="/sectors">Retail</Link></li>
+                            <li><Link to="/sectors">City Surveillance</Link></li>
+                            <li><Link to="/sectors">Real Estate</Link></li>
                         </ul>
                     </div>
 

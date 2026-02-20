@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Landmark, GraduationCap, Hotel, ShoppingCart, Camera, Building2, ArrowRight } from 'lucide-react';
 import './Sectors.css';
@@ -92,9 +93,9 @@ const Sectors = () => {
                                         </li>
                                     ))}
                                 </ul>
-                                <a href="/contact" className="btn btn-primary">
+                                <Link to="/contact" className="btn btn-primary">
                                     Discuss Your Needs <ArrowRight size={16} />
-                                </a>
+                                </Link>
                             </div>
                         </motion.div>
                     ))}
@@ -106,7 +107,7 @@ const Sectors = () => {
                 <div className="container text-center">
                     <h2>Don't See Your Industry?</h2>
                     <p>We work with clients across all verticals. Contact us to discuss how we can adapt our expertise to your specific requirements.</p>
-                    <a href="/contact" className="btn btn-primary">Get in Touch <ArrowRight size={16} /></a>
+                    <Link to="/contact" className="btn btn-primary">Get in Touch <ArrowRight size={16} /></Link>
                 </div>
             </section>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Shield, Key, DoorOpen, Camera, Bell, Flame, Home, Server, Wifi, CheckCircle2 } from 'lucide-react';
 import './Services.css';
@@ -177,7 +178,7 @@ const Services = () => {
                                         </li>
                                     ))}
                                 </ul>
-                                <a href="/contact" className="btn btn-primary">Request This Service</a>
+                                <Link to="/contact" className="btn btn-primary">Request This Service</Link>
                             </div>
                         </motion.div>
                     ))}
@@ -189,7 +190,7 @@ const Services = () => {
                 <div className="container text-center">
                     <h2>Not Sure What You Need?</h2>
                     <p>Our consultants will assess your premises and recommend the most effective, cost-efficient solution.</p>
-                    <a href="/contact" className="btn btn-primary">Book a Free Assessment</a>
+                    <Link to="/contact" className="btn btn-primary">Book a Free Assessment</Link>
                 </div>
             </section>
         </div>

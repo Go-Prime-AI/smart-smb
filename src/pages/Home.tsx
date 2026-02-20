@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Shield, Camera, Key, Bell, Flame, Server, Wifi, DoorOpen, ArrowRight, CheckCircle2, Phone, Home as HomeIcon } from 'lucide-react';
 import './Home.css';
@@ -86,8 +87,8 @@ const Home = () => {
                         <h1>Smart Security.<br />Smarter Infrastructure.</h1>
                         <p>SmartSMB delivers seamless integration of physical security, data networking, and intelligent building systems — protecting your people, property, and information.</p>
                         <div className="hero-cta">
-                            <a href="/contact" className="btn btn-primary">Get a Free Consultation <ArrowRight size={18} /></a>
-                            <a href="/services" className="btn btn-outline">Explore Our Services</a>
+                            <Link to="/contact" className="btn btn-primary">Get a Free Consultation <ArrowRight size={18} /></Link>
+                            <Link to="/services" className="btn btn-outline">Explore Our Services</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -188,6 +189,7 @@ const Home = () => {
                         <p>Contact our team for a tailored security assessment and consultation.</p>
                     </div>
                     <div className="cta-actions">
+                        <Link to="/contact" className="btn btn-primary">Get a Quote <ArrowRight size={18} /></Link>
                         <a href="tel:+9613326759" className="btn btn-outline-light"><Phone size={18} /> Call Us Now</a>
                     </div>
                 </div>

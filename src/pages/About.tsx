@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Target, TrendingUp, Users, ShieldCheck } from 'lucide-react';
 import './About.css';
@@ -134,7 +135,7 @@ const About = () => {
                                 <li>Structured Cabling & Data Centers</li>
                                 <li>Indoor/Outdoor Wireless Telecommunication</li>
                             </ul>
-                            <a href="/services" className="btn btn-primary">View All Services</a>
+                            <Link to="/services" className="btn btn-primary">View All Services</Link>
                         </div>
                     </div>
                 </div>
