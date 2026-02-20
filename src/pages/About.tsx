@@ -55,8 +55,8 @@ const About = () => {
                         viewport={{ once: true }}
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=1200"
-                            alt="SmartSMB Professional Team"
+                            src="/smart-logo.webp"
+                            alt="SmartSMB Logo"
                         />
                     </motion.div>
                     <div className="story-content">
@@ -115,7 +115,7 @@ const About = () => {
                     <div className="summary-grid">
                         <div className="summary-image">
                             <img
-                                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc48?auto=format&fit=crop&q=80&w=1200"
+                                src="https://www.identityone.net/wp-content/uploads/2024/08/physical-and-logical-security-convergence.jpg"
                                 alt="Data Center Infrastructure"
                             />
                         </div>

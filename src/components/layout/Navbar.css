@@ -80,6 +80,13 @@
     border: none;
     cursor: pointer;
     transition: var(--transition-smooth);
+    z-index: 1100;
+    /* Higher than mobile-menu */
+    position: relative;
+}
+
+.nav-open .mobile-toggle {
+    color: var(--brand-primary);
 }
 
 /* Mobile Menu */
@@ -89,9 +96,12 @@
     right: -100%;
     width: 85%;
     height: 100vh;
-    z-index: 999;
+    z-index: 1050;
     padding: 100px 2rem 2rem;
     transition: var(--transition-smooth);
+    background: white;
+    /* Ensure solid background for contrast */
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .mobile-menu.active {

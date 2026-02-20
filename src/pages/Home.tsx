@@ -7,42 +7,42 @@ const services = [
         icon: <Shield size={28} />,
         title: 'Total Physical Security',
         desc: 'Comprehensive security solutions for your home and business — protecting your people, property, and information.',
-        image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?auto=format&fit=crop&q=80&w=800',
         href: '/services#physical-security'
     },
     {
         icon: <Key size={28} />,
         title: 'Access Control',
         desc: 'IP RFID & NFC-based systems that monitor and restrict movement in your building with total precision.',
-        image: 'https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.pexels.com/photos/13657406/pexels-photo-13657406.jpeg?auto=format&fit=crop&q=80&w=800',
         href: '/services#access-control'
     },
     {
         icon: <DoorOpen size={28} />,
         title: 'Door Entry System',
         desc: 'Answer your door from anywhere — PC, laptop, or smartphone. Fully integrated with CCTV and alarm systems.',
-        image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.pexels.com/photos/8978630/pexels-photo-8978630.jpeg?auto=format&fit=crop&q=80&w=800',
         href: '/services#door-entry'
     },
     {
         icon: <Camera size={28} />,
         title: 'CCTV & Video Analytics',
         desc: 'Round-the-clock surveillance with AI-powered analytics — transforming reactive monitoring into proactive prevention.',
-        image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.pexels.com/photos/18693311/pexels-photo-18693311.jpeg?auto=format&fit=crop&q=80&w=800',
         href: '/services#cctv'
     },
     {
         icon: <Bell size={28} />,
         title: 'Intruder Alarm System',
         desc: 'Customized burglar alarm solutions for homes and commercial premises, covering all scales and standards.',
-        image: 'https://images.unsplash.com/photo-1570793294991-17f2e1a2ef91?auto=format&fit=crop&q=80&w=800',
+        image: 'https://static.vecteezy.com/system/resources/thumbnails/020/724/282/small/thief-with-balaclava-and-wire-cutter-was-spotted-trying-to-steal-in-a-apartment-from-the-security-alarm-system-scared-expression-photo.jpg',
         href: '/services#intruder-alarm'
     },
     {
         icon: <Flame size={28} />,
         title: 'Fire Alarm System',
         desc: 'Early warning detection systems designed and installed to ensure safe and timely evacuation of any building.',
-        image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.pexels.com/photos/7425340/pexels-photo-7425340.jpeg?auto=format&fit=crop&q=80&w=800',
         href: '/services#fire-alarm'
     },
     {
@@ -56,7 +56,7 @@ const services = [
         icon: <Server size={28} />,
         title: 'Structured Cabling & Data Center',
         desc: 'Custom-designed network architectures and disaster recovery infrastructure for zero-downtime operations.',
-        image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc48?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg?auto=format&fit=crop&q=80&w=800',
         href: '/services#data-center'
     },
     {
@@ -137,7 +137,7 @@ const Home = () => {
                         viewport={{ once: true }}
                         className="why-image"
                     >
-                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200" alt="Professional Team" />
+                        <img src="https://www.identityone.net/wp-content/uploads/2024/08/physical-and-logical-security-convergence.jpg" alt="Modern Retail Solutions" />
                     </motion.div>
                     <div className="why-content">
                         <span className="section-label">Why SmartSMB</span>
@@ -188,8 +188,7 @@ const Home = () => {
                         <p>Contact our team for a tailored security assessment and consultation.</p>
                     </div>
                     <div className="cta-actions">
-                        <a href="/contact" className="btn btn-primary">Get a Quote <ArrowRight size={18} /></a>
-                        <a href="tel:+96100000000" className="btn btn-outline-light"><Phone size={18} /> Call Us Now</a>
+                        <a href="tel:+9613326759" className="btn btn-outline-light"><Phone size={18} /> Call Us Now</a>
                     </div>
                 </div>
             </section>

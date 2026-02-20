@@ -1,117 +1,78 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, MessageCircle } from 'lucide-react';
+import { Phone, MapPin, MessageCircle } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
     return (
         <div className="contact-overhaul">
-            {/* Contact Hero */}
-            <section className="contact-hero-section">
-                <div className="contact-hero-bg" />
-                <div className="contact-hero-overlay" />
-                <div className="container contact-hero-content">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                    >
-                        <span className="section-subtitle">Get In Touch</span>
-                        <h1>Global Expertise, Local Support</h1>
-                        <p>Our consultation team is available 24/7 to discuss your infrastructure needs and provide a comprehensive security assessment.</p>
-                    </motion.div>
-                </div>
-            </section>
-
             <section className="contact-content-section">
                 <div className="container">
-                    <div className="contact-grid-main">
-                        {/* Contact Form */}
+                    <div className="section-header text-center" style={{ marginBottom: '4rem' }}>
+                        <span className="section-label">Get In Touch</span>
+                        <h1 style={{ fontSize: '3rem', fontWeight: 800, color: 'var(--brand-primary)', marginBottom: '1rem' }}>We're Ready to Help</h1>
+                        <p style={{ maxWidth: '600px', margin: '0 auto', color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Choose your preferred way to connect with our technical consultation team.</p>
+                    </div>
+                    <div className="contact-direct-grid">
+                        {/* Call Card */}
                         <motion.div
-                            initial={{ opacity: 0, x: -30 }}
-                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            className="contact-form-card glass"
+                            className="contact-card-modern"
                         >
-                            <div className="form-header">
-                                <MessageCircle className="icon-accent" />
-                                <h2>Send a Message</h2>
+                            <div className="card-icon-wrapper">
+                                <Phone size={32} />
                             </div>
-                            <form className="modern-form">
-                                <div className="form-row">
-                                    <div className="form-group">
-                                        <label>Full Name</label>
-                                        <input type="text" placeholder="John Doe" />
-                                    </div>
-                                    <div className="form-group">
-                                        <label>Company</label>
-                                        <input type="text" placeholder="Enter Company" />
-                                    </div>
-                                </div>
-                                <div className="form-group">
-                                    <label>Email Address</label>
-                                    <input type="email" placeholder="john@company.com" />
-                                </div>
-                                <div className="form-group">
-                                    <label>Project Type</label>
-                                    <select>
-                                        <option>Physical Security</option>
-                                        <option>Data Networking</option>
-                                        <option>Smart Building</option>
-                                        <option>Other</option>
-                                    </select>
-                                </div>
-                                <div className="form-group">
-                                    <label>Message</label>
-                                    <textarea rows={5} placeholder="Describe your requirements..."></textarea>
-                                </div>
-                                <button type="submit" className="btn btn-primary w-full">
-                                    <Send size={18} /> Submit Consultation Request
-                                </button>
-                            </form>
+                            <h3>Phone Consultation</h3>
+                            <p>Speak directly with our technical experts for immediate assistance.</p>
+                            <a href="tel:+9613326759" className="card-action-btn">+961 3 326759</a>
                         </motion.div>
 
-                        {/* Contact Details */}
-                        <div className="contact-details-grid">
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                className="detail-item glass"
+                        {/* WhatsApp Card */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.1 }}
+                            className="contact-card-modern"
+                        >
+                            <div className="card-icon-wrapper whatsapp-theme">
+                                <MessageCircle size={32} />
+                            </div>
+                            <h3>WhatsApp Chat</h3>
+                            <p>Fast and convenient support. Get answers to your questions in minutes.</p>
+                            <a
+                                href="https://wa.me/9613326759?text=Hello%20SmartSMB,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                                className="card-action-btn whatsapp-theme"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
-                                <div className="detail-icon"><MapPin /></div>
-                                <div className="detail-text">
-                                    <h3>Headquarters</h3>
-                                    <p>Main Corporate Office,<br />Beirut Business District, Lebanon</p>
-                                </div>
-                            </motion.div>
+                                Chat Now
+                            </a>
+                        </motion.div>
 
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.1 }}
-                                className="detail-item glass"
+                        {/* Location Card */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.2 }}
+                            className="contact-card-modern"
+                        >
+                            <div className="card-icon-wrapper location-theme">
+                                <MapPin size={32} />
+                            </div>
+                            <h3>Our Location</h3>
+                            <p>Headquarters in Baouchriyeh, Lebanon.</p>
+                            <a
+                                href="https://maps.app.goo.gl/PTX9mnJX1BzSLQxMA"
+                                className="card-action-btn location-theme"
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
-                                <div className="detail-icon"><Mail /></div>
-                                <div className="detail-text">
-                                    <h3>Email Us</h3>
-                                    <p>info@smart-smb.com<br />support@smart-smb.com</p>
-                                </div>
-                            </motion.div>
-
-                            <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.2 }}
-                                className="detail-item glass"
-                            >
-                                <div className="detail-icon"><Phone /></div>
-                                <div className="detail-text">
-                                    <h3>Call Directly</h3>
-                                    <p>+961 03 000 000<br />+961 01 000 000</p>
-                                </div>
-                            </motion.div>
-                        </div>
+                                View on Maps
+                            </a>
+                        </motion.div>
                     </div>
                 </div>
             </section>

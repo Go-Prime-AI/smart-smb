@@ -41,7 +41,7 @@ const Navbar = () => {
                             {link.name}
                         </NavLink>
                     ))}
-                    <a href="tel:+961000000" className="nav-cta btn btn-primary">
+                    <a href="tel:+9613326759" className="nav-cta btn btn-primary">
                         <Phone size={18} /> Call Now
                     </a>
                 </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
                         </NavLink>
                     ))}
                     <div className="mobile-cta">
-                        <a href="tel:+961000000" className="btn btn-primary w-full">
+                        <a href="tel:+9613326759" className="btn btn-primary w-full">
                             <Phone size={18} /> Call Now
                         </a>
                     </div>

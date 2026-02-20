@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook } from 'lucide-react';
+import { Phone, MapPin } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,10 +10,6 @@ const Footer = () => {
                     <div className="footer-brand">
                         <img src="/smart-logo.webp" alt="SmartSMB Logo" />
                         <p>Providing innovation in security integration and seamless infrastructure solutions across Lebanon since 2020.</p>
-                        <div className="social-links">
-                            <a href="#" aria-label="Facebook"><Facebook size={20} /></a>
-                            <a href="mailto:info@smart-smb.com" aria-label="Email"><Mail size={20} /></a>
-                        </div>
                     </div>
 
                     {/* Services */}
@@ -50,26 +46,19 @@ const Footer = () => {
                         <h4>Contact Us</h4>
                         <div className="contact-item">
                             <MapPin size={18} className="contact-icon" />
-                            <span>Beirut, Lebanon</span>
+                            <a href="https://maps.app.goo.gl/PTX9mnJX1BzSLQxMA" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>Baouchriyeh, Lebanon</a>
                         </div>
                         <div className="contact-item">
                             <Phone size={18} className="contact-icon" />
-                            <span>+961 00 000 000</span>
+                            <a href="tel:+9613326759" style={{ color: 'inherit', textDecoration: 'none' }}>+961 3 326759</a>
                         </div>
-                        <div className="contact-item">
-                            <Mail size={18} className="contact-icon" />
-                            <span>info@smart-smb.com</span>
-                        </div>
-                        <a href="/contact" className="footer-cta-btn">Get a Free Quote</a>
+
+
                     </div>
                 </div>
 
                 <div className="footer-bottom">
                     <p>© {new Date().getFullYear()} SmartSMB. All rights reserved.</p>
-                    <div className="footer-legal">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                    </div>
                 </div>
             </div>
         </footer>
