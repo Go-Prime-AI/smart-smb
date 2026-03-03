@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     {/* Brand */}
                     <div className="footer-brand">
-                        <img src="/smart-logo.webp" alt="SmartSMB Logo" />
+                        <img src="/smart-smb-logo.jpeg" alt="SmartSMB Logo" className="footer-logo" />
                         <p>Providing innovation in security integration and seamless infrastructure solutions across Lebanon since 2020.</p>
                     </div>
 

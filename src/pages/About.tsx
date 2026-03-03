@@ -39,7 +39,7 @@ const About = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7 }}
                     >
-                        <span className="section-label">About SmartSMB</span>
+                        <span className="hero-badge">About SmartSMB</span>
                         <h1>Lebanon's Trusted Security & Infrastructure Partner</h1>
                         <p>SmartSMB is a leading professional services provider specialized in physical security, data networking, enterprise security integration, building control-automation and consulting.</p>
                     </motion.div>
@@ -56,18 +56,19 @@ const About = () => {
                         viewport={{ once: true }}
                     >
                         <img
-                            src="/smart-logo.webp"
+                            src="/smart-smb-logo.jpeg"
                             alt="SmartSMB Logo"
                         />
                     </motion.div>
                     <div className="story-content">
-                        <span className="section-label">Our Story</span>
+                        <span className="section-label">Company Background</span>
                         <h2>Built on Expertise,<br />Driven by Innovation</h2>
-                        <p>SmartSMB brings together expertise in physical security, data networking, and building automation to deliver complete, end-to-end infrastructure solutions. In over 5 years of business, we have served homes, offices, hotels, and governmental institutions across Lebanon.</p>
-                        <p>We work closely with each client to understand their unique environment and design systems that are not only effective today, but scalable for tomorrow. Our solutions span everything from a single door entry system to a full data center and city-wide surveillance network.</p>
+                        <p>Our expertise includes solutions and professional services in physical security, data networking, and enterprise security integration, building control-automation and consulting.</p>
+                        <p>The main focus for our company is to provide innovation when designing solutions for our clients. Seamless integration of multiple sub-systems including intrusion and perimeter protection systems, fire detection, home automation, access control, gate entry, video surveillance systems and video analytics.</p>
+                        <p>We can offer our clients a flexible open architecture system that will provide a return on investment, reduce the total cost of ownership and at the same time, increase your security effectiveness.</p>
                         <div className="story-stats">
                             <div className="stat">
-                                <span className="stat-number">5+</span>
+                                <span className="stat-number">20+</span>
                                 <span className="stat-label">Years of Business</span>
                             </div>
                             <div className="stat">

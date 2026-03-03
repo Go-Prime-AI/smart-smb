@@ -111,6 +111,11 @@
         gap: 4rem;
     }
 
+    .footer-logo {
+        height: 36px;
+        margin-bottom: 1.5rem;
+    }
+
     .footer-bottom {
         flex-direction: column;
         gap: 1.5rem;

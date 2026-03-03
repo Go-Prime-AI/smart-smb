@@ -7,64 +7,64 @@ const services = [
     {
         icon: <Shield size={28} />,
         title: 'Total Physical Security',
-        desc: 'Comprehensive security solutions for your home and business — protecting your people, property, and information.',
-        image: 'https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?auto=format&fit=crop&q=80&w=800',
+        desc: 'Many physical security issues are complex. SmartSMB is expert in physical and electronic security, providing Total Security Solutions.',
+        image: '/assets/physical-security.webp',
         href: '/services#physical-security'
     },
     {
         icon: <Key size={28} />,
         title: 'Access Control',
-        desc: 'IP RFID & NFC-based systems that monitor and restrict movement in your building with total precision.',
-        image: 'https://images.pexels.com/photos/13657406/pexels-photo-13657406.jpeg?auto=format&fit=crop&q=80&w=800',
+        desc: 'Next-generation IP-based security with RFID/NFC support and CCTV integration to monitor and restrict movement.',
+        image: '/assets/access-control.webp',
         href: '/services#access-control'
     },
     {
         icon: <DoorOpen size={28} />,
         title: 'Door Entry System',
-        desc: 'Answer your door from anywhere — PC, laptop, or smartphone. Fully integrated with CCTV and alarm systems.',
-        image: 'https://images.pexels.com/photos/8978630/pexels-photo-8978630.jpeg?auto=format&fit=crop&q=80&w=800',
+        desc: 'Fully integrated door-phone systems with remote access via PC or smartphone, secure for buildings of all sizes.',
+        image: '/assets/door-entry.webp',
         href: '/services#door-entry'
     },
     {
         icon: <Camera size={28} />,
         title: 'CCTV & Video Analytics',
-        desc: 'Round-the-clock surveillance with AI-powered analytics — transforming reactive monitoring into proactive prevention.',
-        image: 'https://images.pexels.com/photos/18693311/pexels-photo-18693311.jpeg?auto=format&fit=crop&q=80&w=800',
+        desc: 'AI-powered video analytics for homes and businesses—tracking suspicious behavior and alerting operators in real-time.',
+        image: '/assets/cctv.webp',
         href: '/services#cctv'
     },
     {
         icon: <Bell size={28} />,
         title: 'Intruder Alarm System',
-        desc: 'Customized burglar alarm solutions for homes and commercial premises, covering all scales and standards.',
-        image: 'https://static.vecteezy.com/system/resources/thumbnails/020/724/282/small/thief-with-balaclava-and-wire-cutter-was-spotted-trying-to-steal-in-a-apartment-from-the-security-alarm-system-scared-expression-photo.jpg',
+        desc: 'Complete integrated intrusion solutions based on 20 years of expertise, designed to protect your home or business.',
+        image: '/assets/intruder.webp',
         href: '/services#intruder-alarm'
     },
     {
         icon: <Flame size={28} />,
-        title: 'Fire Alarm System',
-        desc: 'Early warning detection systems designed and installed to ensure safe and timely evacuation of any building.',
-        image: 'https://images.pexels.com/photos/7425340/pexels-photo-7425340.jpeg?auto=format&fit=crop&q=80&w=800',
+        title: 'Fire Alarm & Suppression Systems',
+        desc: 'Advanced early warning and suppression systems using clean agents and aerosols to protect property without water damage.',
+        image: '/assets/fire-alarm.webp',
         href: '/services#fire-alarm'
     },
     {
         icon: <HomeIcon size={28} />,
-        title: 'Home Control & Automation',
-        desc: 'Control lighting, HVAC, audio, irrigation, and security from your smartphone — anytime, anywhere.',
-        image: 'https://images.unsplash.com/photo-1519558260268-cde7e03a0152?auto=format&fit=crop&q=80&w=800',
+        title: 'Home Control & Home Automation',
+        desc: 'Smart SMB integrates and automates your home—lighting, cooling, sound, and security—all managed from your smartphone.',
+        image: '/assets/automation.webp',
         href: '/services#home-automation'
     },
     {
         icon: <Server size={28} />,
-        title: 'Structured Cabling & Data Center',
-        desc: 'Custom-designed network architectures and disaster recovery infrastructure for zero-downtime operations.',
-        image: 'https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg?auto=format&fit=crop&q=80&w=800',
+        title: 'Structured Cabling and Data Center',
+        desc: 'Customized solutions for network architecture and data center planning to ensure faultless business continuity.',
+        image: '/assets/cabling.webp',
         href: '/services#data-center'
     },
     {
         icon: <Wifi size={28} />,
-        title: 'Wireless Telecommunication',
-        desc: 'Next-gen Wi-Fi and Microwave Transmission backbones — optimized for maximum capacity, minimum dropouts.',
-        image: 'https://images.unsplash.com/photo-1516387938699-a93567ec168e?auto=format&fit=crop&q=80&w=800',
+        title: 'Indoor/Outdoor Wireless Telecommunication',
+        desc: 'Proven wireless connectivity for indoor and outdoor environments, optimizing connections and maximizing capacity.',
+        image: '/assets/mobile-network.webp',
         href: '/services#wireless'
     }
 ];
@@ -148,7 +148,7 @@ const Home = () => {
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Seamless multi-system integration</span></li>
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Flexible open architecture design</span></li>
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Measurable ROI & reduced TCO</span></li>
-                            <li><CheckCircle2 size={20} className="check-icon" /> <span>5+ years serving Lebanon's top sectors</span></li>
+                            <li><CheckCircle2 size={20} className="check-icon" /> <span>20+ years serving Lebanon's top sectors</span></li>
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Residential, commercial & governmental expertise</span></li>
                         </ul>
                         <a href="/about" className="btn btn-primary">About SmartSMB <ArrowRight size={18} /></a>
@@ -186,7 +186,7 @@ const Home = () => {
                 <div className="container cta-content">
                     <div>
                         <h2>Ready to Secure Your Business?</h2>
-                        <p>Contact our team for a tailored security assessment and consultation.</p>
+                        <p>Contact our team to discuss your security and infrastructure needs.</p>
                     </div>
                     <div className="cta-actions">
                         <Link to="/contact" className="btn btn-primary">Get a Quote <ArrowRight size={18} /></Link>
