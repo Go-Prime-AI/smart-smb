@@ -7,7 +7,7 @@ const services = [
     {
         icon: <Shield size={28} />,
         title: 'Total Physical Security',
-        desc: 'Many physical security issues are complex. SmartSMB is expert in physical and electronic security, providing Total Security Solutions.',
+        desc: 'Many physical security issues are complex. Smart SMB is expert in physical and electronic security, providing Total Security Solutions.',
         image: '/assets/physical-security.webp',
         href: '/services#physical-security'
     },
@@ -85,7 +85,7 @@ const Home = () => {
                     >
                         <span className="hero-badge">Lebanon's Trusted Security Partner</span>
                         <h1>Smart Security.<br />Smarter Infrastructure.</h1>
-                        <p>SmartSMB delivers seamless integration of physical security, data networking, and intelligent building systems — protecting your people, property, and information.</p>
+                        <p>Smart SMB delivers seamless integration of physical security, data networking, and intelligent building systems, protecting your people, property, and information.</p>
                         <div className="hero-cta">
                             <Link to="/contact" className="btn btn-primary">Get a Free Consultation <ArrowRight size={18} /></Link>
                             <Link to="/services" className="btn btn-outline">Explore Our Services</Link>
@@ -100,7 +100,7 @@ const Home = () => {
                     <div className="section-header">
                         <span className="section-label">What We Do</span>
                         <h2>Complete Security & Infrastructure Solutions</h2>
-                        <p>From CCTV and access control to data centers and wireless systems — everything your business needs under one roof.</p>
+                        <p>From CCTV and access control to data centers and wireless systems: everything your business needs under one roof.</p>
                     </div>
                     <div className="services-grid">
                         {services.map((s, i) => (
@@ -141,9 +141,9 @@ const Home = () => {
                         <img src="https://www.identityone.net/wp-content/uploads/2024/08/physical-and-logical-security-convergence.jpg" alt="Modern Retail Solutions" />
                     </motion.div>
                     <div className="why-content">
-                        <span className="section-label">Why SmartSMB</span>
-                        <h2>Innovation at the Core of Every Solution</h2>
-                        <p>We don't just install systems — we design flexible, open-architecture solutions that provide a clear return on investment, reduce total cost of ownership, and increase your security effectiveness.</p>
+                        <span className="section-label">Why Smart SMB</span>
+                        <h2>Unmatched Integration,<br />Measurable Safety</h2>
+                        <p>We don't just install systems: we design flexible, open-architecture solutions that provide a clear return on investment, reduce total cost of ownership, and increase your security effectiveness.</p>
                         <ul className="why-list">
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Seamless multi-system integration</span></li>
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Flexible open architecture design</span></li>
@@ -151,7 +151,7 @@ const Home = () => {
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>20+ years serving Lebanon's top sectors</span></li>
                             <li><CheckCircle2 size={20} className="check-icon" /> <span>Residential, commercial & governmental expertise</span></li>
                         </ul>
-                        <a href="/about" className="btn btn-primary">About SmartSMB <ArrowRight size={18} /></a>
+                        <a href="/about" className="btn btn-primary">About Smart SMB <ArrowRight size={18} /></a>
                     </div>
                 </div>
             </section>

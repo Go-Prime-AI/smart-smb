@@ -60,7 +60,7 @@ const Sectors = () => {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
                         <span className="hero-badge">Key Sectors</span>
                         <h1>Expertise Across Industry Verticals</h1>
-                        <p>SmartSMB delivers precision security and infrastructure solutions tailored to the unique operational demands of diverse industries — from government to retail.</p>
+                        <p>Smart SMB delivers precision security and infrastructure solutions tailored to the unique operational demands of diverse industries, from government to retail.</p>
                     </motion.div>
                 </div>
             </section>

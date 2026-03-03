@@ -9,7 +9,7 @@ const services = [
         icon: <Shield size={32} />,
         title: 'Total Physical Security',
         subtitle: 'Protecting Your People, Property & Information',
-        description: 'Many physical security issues are complex. Smart SMB is expert in physical and electronic security, providing Total Security Solutions for homes and businesses. With over 20 years of experience, we design and install high-security systems tailored to your needs—from single door entry to city-wide surveillance.',
+        description: 'Many physical security issues are complex. Smart SMB is expert in physical and electronic security, providing Total Security Solutions for homes and businesses. With over 20 years of experience, we design and install high-security systems tailored to your needs: from single door entry to city-wide surveillance.',
         features: [
             'High-Security Keying Systems',
             'Perimeter Protection',
@@ -42,7 +42,7 @@ const services = [
         icon: <DoorOpen size={32} />,
         title: 'Door Entry System',
         subtitle: 'Answer Your Door from Anywhere',
-        description: 'Smart SMB offers fully integrated door entry systems compatible with existing security cameras, alarms, and IP telephony. Answer your door from anywhere via PC, laptop, or smartphone—making remote access convenient and secure for buildings of all sizes.',
+        description: 'Smart SMB offers fully integrated door entry systems compatible with existing security cameras, alarms, and IP telephony. Answer your door from anywhere via PC, laptop, or smartphone: making remote access convenient and secure for buildings of all sizes.',
         features: [
             'Smartphone & Tablet Access',
             'CCTV & Alarm Integration',
@@ -118,7 +118,7 @@ const services = [
         icon: <Home size={32} />,
         title: 'Home Control & Home Automation',
         subtitle: 'Control Your Entire Home at the Touch of a Button',
-        description: 'On your way back home, have the cooling system ready before you arrive. Control lighting, sound, heating, appliances, window coverings, and irrigation — all from your smartphone. Smart SMB integrates and automates the major systems of your home so life is simpler and more efficient.',
+        description: 'On your way back home, have the cooling system ready before you arrive. Control lighting, sound, heating, appliances, window coverings, and irrigation: all from your smartphone. Smart SMB integrates and automates the major systems of your home so life is simpler and more efficient.',
         features: [
             'HVAC & Lighting Control',
             'Audio/Video Equipment Automation',
@@ -157,8 +157,8 @@ const services = [
         id: 'wireless',
         icon: <Wifi size={32} />,
         title: 'Indoor/Outdoor Wireless Telecommunication',
-        subtitle: 'Reliable Wireless — Built for the Modern Workforce',
-        description: 'As bandwidth demands grow, we build strategies for next-generation wireless performance. We optimize connections and maximize capacity for both indoor and outdoor environments—enabling any location to become a high-performance workstation.',
+        subtitle: 'Reliable Wireless, Built for the Modern Workforce',
+        description: 'As bandwidth demands grow, we build strategies for next-generation wireless performance. We optimize connections and maximize capacity for both indoor and outdoor environments, enabling any location to become a high-performance workstation.',
         features: [
             'Microwave Transmission Backbone',
             'Indoor & Outdoor Wi-Fi Design',
@@ -186,7 +186,7 @@ const Services = () => {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
                         <span className="hero-badge">Our Expertise</span>
                         <h1>Advanced Security &<br />Building Solutions</h1>
-                        <p>SmartSMB delivers precision-engineered security and intelligent infrastructure — from single high-security locks to city-wide surveillance networks.</p>
+                        <p>Smart SMB delivers precision-engineered security and intelligent infrastructure, from single high-security locks to city-wide surveillance networks.</p>
                     </motion.div>
                 </div>
             </section>

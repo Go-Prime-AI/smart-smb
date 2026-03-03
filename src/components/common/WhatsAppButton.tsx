@@ -3,7 +3,7 @@ import './WhatsAppButton.css';
 
 const WhatsAppButton = () => {
     const whatsappNumber = '9613326759';
-    const message = 'Hello SmartSMB, I would like to inquire about your services.';
+    const message = 'Hello Smart SMB, I would like to inquire about your services.';
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     return (

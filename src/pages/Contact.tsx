@@ -42,7 +42,7 @@ const Contact = () => {
                             <h3>WhatsApp Chat</h3>
                             <p>Fast and convenient support. Get answers to your questions in minutes.</p>
                             <a
-                                href="https://wa.me/9613326759?text=Hello%20SmartSMB,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                                href="https://wa.me/9613326759?text=Hello%20Smart%20SMB,%20I%20would%20like%20to%20inquire%20about%20your%20services."
                                 className="card-action-btn whatsapp-theme"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const Contact = () => {
                             <h3>Our Location</h3>
                             <p>Headquarters in Baouchriyeh, Lebanon.</p>
                             <a
-                                href="https://maps.app.goo.gl/PTX9mnJX1BzSLQxMA"
+                                href="https://maps.app.goo.gl/owZA9aC3auv3jJkB9"
                                 className="card-action-btn location-theme"
                                 target="_blank"
                                 rel="noopener noreferrer"

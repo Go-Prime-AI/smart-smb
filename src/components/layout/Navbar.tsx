@@ -27,7 +27,7 @@ const Navbar = () => {
         <nav className={`navbar-modern ${scrolled ? 'scrolled' : ''} ${isOpen ? 'nav-open' : ''}`}>
             <div className="container nav-wrapper">
                 <NavLink to="/" className="brand-logo">
-                    <img src="/smart-smb-logo.jpeg" alt="SmartSMB Logo" />
+                    <img src="/smart-smb-logo.jpeg" alt="Smart SMB Logo" />
                 </NavLink>
 
                 {/* Desktop Navigation */}

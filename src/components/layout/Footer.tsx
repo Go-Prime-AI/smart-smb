@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     {/* Brand */}
                     <div className="footer-brand">
-                        <img src="/smart-smb-logo.jpeg" alt="SmartSMB Logo" className="footer-logo" />
+                        <img src="/smart-smb-logo.jpeg" alt="Smart SMB Logo" className="footer-logo" />
                         <p>Providing innovation in security integration and seamless infrastructure solutions across Lebanon since 2020.</p>
                     </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
                         <h4>Contact Us</h4>
                         <div className="contact-item">
                             <MapPin size={18} className="contact-icon" />
-                            <a href="https://maps.app.goo.gl/PTX9mnJX1BzSLQxMA" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>Baouchriyeh, Lebanon</a>
+                            <a href="https://maps.app.goo.gl/owZA9aC3auv3jJkB9" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>Baouchriyeh, Lebanon</a>
                         </div>
                         <div className="contact-item">
                             <Phone size={18} className="contact-icon" />
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>© {new Date().getFullYear()} SmartSMB. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Smart SMB. All rights reserved.</p>
                 </div>
             </div>
         </footer>

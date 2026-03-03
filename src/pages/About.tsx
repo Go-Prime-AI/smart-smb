@@ -7,12 +7,12 @@ const values = [
     {
         icon: <Target size={28} />,
         title: 'Innovation in Design',
-        desc: 'Our main focus is to provide innovation when designing solutions — not just installing standard products, but crafting tailored architectures that actually solve problems.'
+        desc: 'Our main focus is to provide innovation when designing solutions: not just installing standard products, but crafting tailored architectures that actually solve problems.'
     },
     {
         icon: <ShieldCheck size={28} />,
         title: 'Seamless Integration',
-        desc: 'We specialize in the seamless integration of multiple sub-systems: intrusion detection, fire, automation, access control, and video analytics — all working as one.'
+        desc: 'We specialize in the seamless integration of multiple sub-systems: intrusion detection, fire, automation, access control, and video analytics, all working as one.'
     },
     {
         icon: <TrendingUp size={28} />,
@@ -39,9 +39,9 @@ const About = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7 }}
                     >
-                        <span className="hero-badge">About SmartSMB</span>
+                        <span className="hero-badge">About Smart SMB</span>
                         <h1>Lebanon's Trusted Security & Infrastructure Partner</h1>
-                        <p>SmartSMB is a leading professional services provider specialized in physical security, data networking, enterprise security integration, building control-automation and consulting.</p>
+                        <p>Smart SMB is a leading professional services provider specialized in physical security, data networking, enterprise security integration, building control-automation and consulting.</p>
                     </motion.div>
                 </div>
             </section>
@@ -57,7 +57,7 @@ const About = () => {
                     >
                         <img
                             src="/smart-smb-logo.jpeg"
-                            alt="SmartSMB Logo"
+                            alt="Smart SMB Logo"
                         />
                     </motion.div>
                     <div className="story-content">
@@ -90,7 +90,7 @@ const About = () => {
                     <div className="section-header">
                         <span className="section-label">Our Approach</span>
                         <h2>How We Think About Security</h2>
-                        <p>Every project begins with a fundamental philosophy — security should be seamless, affordable, and built to last.</p>
+                        <p>Every project begins with a fundamental philosophy: security should be seamless, affordable, and built to last.</p>
                     </div>
                     <div className="values-grid">
                         {values.map((v, i) => (
