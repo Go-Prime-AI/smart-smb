@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Shield, Camera, Key, Bell, Flame, Server, Wifi, DoorOpen, ArrowRight, CheckCircle2, Phone, Home as HomeIcon } from 'lucide-react';
+import { Shield, Camera, Key, Bell, Flame, Server, Wifi, DoorOpen, ArrowRight, CheckCircle2, Phone, MessageSquare, Home as HomeIcon } from 'lucide-react';
 import './Home.css';
 
 const services = [
@@ -167,7 +167,7 @@ const Home = () => {
                         {['Governmental', 'Educational', 'Hospitality', 'Retail', 'City Surveillance', 'Real Estate'].map((s, i) => (
                             <motion.a
                                 key={i}
-                                href="/sectors"
+                                href={`/sectors#${s.toLowerCase().replace(' ', '-')}`}
                                 initial={{ opacity: 0, scale: 0.9 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true }}
@@ -189,8 +189,10 @@ const Home = () => {
                         <p>Contact our team to discuss your security and infrastructure needs.</p>
                     </div>
                     <div className="cta-actions">
-                        <Link to="/contact" className="btn btn-primary">Get a Quote <ArrowRight size={18} /></Link>
-                        <a href="tel:+9613326759" className="btn btn-outline-light"><Phone size={18} /> Call Us Now</a>
+                        <a href="tel:+9613326759" className="btn btn-primary"><Phone size={18} /> Call Us Now</a>
+                        <a href="https://wa.me/9613326759" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ borderColor: '#25D366', color: '#25D366' }}>
+                            <MessageSquare size={18} /> WhatsApp DM
+                        </a>
                     </div>
                 </div>
             </section>

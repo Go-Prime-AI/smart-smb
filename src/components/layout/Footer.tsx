@@ -10,7 +10,7 @@ const Footer = () => {
                     {/* Brand */}
                     <div className="footer-brand">
                         <img src="/smart-smb-logo.jpeg" alt="Smart SMB Logo" className="footer-logo" />
-                        <p>Providing innovation in security integration and seamless infrastructure solutions across Lebanon since 2020.</p>
+                        <p>Providing innovation in security integration and seamless infrastructure solutions across Lebanon since 2014.</p>
                     </div>
 
                     {/* Services */}
@@ -33,12 +33,12 @@ const Footer = () => {
                     <div className="footer-nav">
                         <h4>Key Sectors</h4>
                         <ul>
-                            <li><Link to="/sectors">Governmental</Link></li>
-                            <li><Link to="/sectors">Educational</Link></li>
-                            <li><Link to="/sectors">Hospitality</Link></li>
-                            <li><Link to="/sectors">Retail</Link></li>
-                            <li><Link to="/sectors">City Surveillance</Link></li>
-                            <li><Link to="/sectors">Real Estate</Link></li>
+                            <li><Link to="/sectors#governmental">Governmental</Link></li>
+                            <li><Link to="/sectors#educational">Educational</Link></li>
+                            <li><Link to="/sectors#hospitality">Hospitality</Link></li>
+                            <li><Link to="/sectors#retail">Retail</Link></li>
+                            <li><Link to="/sectors#city-surveillance">City Surveillance</Link></li>
+                            <li><Link to="/sectors#real-estate">Real Estate</Link></li>
                         </ul>
                     </div>
 
