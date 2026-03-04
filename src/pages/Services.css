@@ -128,6 +128,14 @@
     display: block;
 }
 
+/* Specific fix for Home Automation image to show full width */
+.service-module-image img[src*="automation.webp"] {
+    object-fit: contain;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
 .service-module-icon-badge {
     position: absolute;
     bottom: 20px;
