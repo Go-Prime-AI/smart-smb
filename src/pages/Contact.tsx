@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, MapPin, MessageCircle } from 'lucide-react';
+import { Phone, MapPin, MessageCircle, Facebook, Instagram } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
@@ -74,6 +74,48 @@ const Contact = () => {
                             </a>
                         </motion.div>
                     </div>
+
+                    {/* Social Media Section */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.3 }}
+                        className="contact-social-section"
+                    >
+                        <h2 className="social-title">Follow Our Updates</h2>
+                        <div className="social-links-grid">
+                            <a
+                                href="https://www.facebook.com/smartsmb.lb/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="social-card facebook"
+                            >
+                                <div className="social-icon">
+                                    <Facebook size={24} />
+                                </div>
+                                <div className="social-info">
+                                    <span className="platform">Facebook</span>
+                                    <span className="handle">@smartsmb.lb</span>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/smart_smb_lb"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="social-card instagram"
+                            >
+                                <div className="social-icon">
+                                    <Instagram size={24} />
+                                </div>
+                                <div className="social-info">
+                                    <span className="platform">Instagram</span>
+                                    <span className="handle">@smart_smb_lb</span>
+                                </div>
+                            </a>
+                        </div>
+                    </motion.div>
                 </div>
             </section>
         </div>

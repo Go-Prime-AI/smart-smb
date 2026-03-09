@@ -112,3 +112,106 @@
         padding: 2.5rem 1.5rem;
     }
 }
+
+/* Social Media Section Styles */
+.contact-social-section {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.social-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--brand-primary);
+    margin-bottom: 3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.social-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: var(--brand-accent);
+    border-radius: 2px;
+}
+
+.social-links-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.social-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+    border-color: rgba(var(--brand-primary-rgb), 0.2);
+}
+
+.social-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.social-card:hover .social-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.social-card.facebook .social-icon {
+    background: #1877F2;
+}
+
+.social-card.instagram .social-icon {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-info {
+    text-align: left;
+}
+
+.social-info .platform {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.social-info .handle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .social-links-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-social-section {
+        margin-top: 4rem;
+    }
+}

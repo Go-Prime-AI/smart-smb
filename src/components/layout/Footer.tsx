@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, MapPin } from 'lucide-react';
+import { Phone, MapPin, Facebook, Instagram } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -11,6 +11,14 @@ const Footer = () => {
                     <div className="footer-brand">
                         <img src="/smart-smb-logo.jpeg" alt="Smart SMB Logo" className="footer-logo" />
                         <p>Providing innovation in security integration and seamless infrastructure solutions across Lebanon since 2014.</p>
+                        <div className="footer-social">
+                            <a href="https://www.facebook.com/smartsmb.lb/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
+                                <Facebook size={20} />
+                            </a>
+                            <a href="https://www.instagram.com/smart_smb_lb" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
+                                <Instagram size={20} />
+                            </a>
+                        </div>
                     </div>
 
                     {/* Services */}
@@ -53,8 +61,6 @@ const Footer = () => {
                             <Phone size={18} className="contact-icon" />
                             <a href="tel:+9613326759" style={{ color: 'inherit', textDecoration: 'none' }}>+961 3 326759</a>
                         </div>
-
-
                     </div>
                 </div>
 

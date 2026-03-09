@@ -22,20 +22,27 @@
     margin-bottom: 2rem;
 }
 
-.social-links {
+.footer-social {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
-.social-links a {
-    color: var(--text-primary);
-    opacity: 0.6;
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(var(--brand-primary-rgb), 0.1);
+    color: var(--brand-primary);
     transition: var(--transition-smooth);
 }
 
-.social-links a:hover {
-    opacity: 1;
-    color: var(--brand-accent);
+.social-link:hover {
+    background: var(--brand-primary);
+    color: white;
+    transform: translateY(-3px);
 }
 
 .footer-nav h4,
