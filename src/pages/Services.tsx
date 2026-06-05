@@ -74,6 +74,7 @@ const services = [
             { name: 'Hikvision', logo: '/assets/partners/hikvision.png', url: 'https://www.hikvision.com' },
             { name: 'Partizan', logo: '/assets/partners/partizan.png', url: 'https://www.partizan.global' },
             { name: 'TVT', logo: '/assets/partners/tvt.png', url: 'https://en.tvt.net.cn' },
+            { name: 'Ajax', logo: '/assets/partners/ajax.png', url: 'https://ajax.systems' },
         ]
     },
     {
